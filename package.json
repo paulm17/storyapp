@@ -1,0 +1,11 @@
+{
+  "name": "storyapp",
+  "private": true,
+  "packageManager": "yarn@1.22.22",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "yarn workspace @storyapp/web dev",
+    "build": "yarn workspace @storyapp/web build",
+    "preview": "yarn workspace @storyapp/web preview"
+  }
+}
